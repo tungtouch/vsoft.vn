@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Vsoft Solution | Bell.vn</title>
+    <!-- Bootstrap -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="royalslider/royalslider.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="menu-responsive/css/jquery.mmenu.css" />
+    <link type="text/css" rel="stylesheet" href="menu-responsive/css/extensions/jquery.mmenu.positioning.css" />
+    <link href="style.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- start slideshow -->
+    <div id="content-slider-1" class="royalSlider contentSlider rsDefault">
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+      <div>
+        <img class="rsImg img-responsive" src="images/Demo-1.jpg" alt="slideshow" />
+      </div>
+    </div>
+    <!-- end slide show -->
+
+    <!-- start menu-responsive -->
+      <div id="menu-top" class="visible-sm visible-xs">
+        <a href="#menu"><i class="fa fa-align-justify"></i></a>
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html#content-slider-1"><i class="fa fa-home"></i> Trang chủ</a></li>
+          <li><a href="index.html#input-video"><i class="fa fa-comments-o"></i> Giới thiệu</a></li>
+          <li class="Selected"><a href="index.html#content-bell"><i class="fa fa-cogs"></i> Tính năng</a></li>
+          <li><a href="index.html#state-price"><i class="fa fa-credit-card"></i> Bảng giá</a></li>
+        </ul>
+      </nav>
+    <!-- end menu-responsive -->
+
+    <!-- start menu-destop -->
+    <div class="navbar navbar-default navbar-fixed-top visible-lg visible-md container" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-6">
+          <ul class="nav navbar-nav">
+            <li id="icon-home" class="active"><a href="#content-slider-1"><i class="fa fa-home"></i></a></li>
+            <li><a href="#input-video"><i class="fa fa-comments-o"></i> Giới thiệu</a></li>
+            <li><a href="#content-bell"><i class="fa fa-cogs"></i> Tính năng</a></li>
+            <li><a href="#state-price"><i class="fa fa-credit-card"></i> Bảng giá</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    <!-- end menu-destop -->
+    <!-- logo -->
+    <div class="container">
+    <div id="logo">
+      <a href="#">
+        <img src="images/logo.png" alt="logo">
+      </a>
+    </div>
+  </div>
+    <!-- end logo -->
+    <!-- start input & video -->
+    <div id="input-video" class="container">
+      <div id="input-form" class="col-lg-5">
+        <h2>Thay đổi ngay hôm nay !</h2>
+        <p><i class="fa fa-question-circle"></i> Bạn là chủ Nhà hàng, Cafe, Khách sạn ?</p>
+        <p><i class="fa fa-question-circle"></i> Hệ thống của bạn thủ công, cồng kềnh ?</p>
+        <p><i class="fa fa-magic"></i> Hãy để chúng tôi mang tới công nghệ tự động hóa hệ thống Nhà hàng, Cafe, Khách sạn của bạn!</p>
+
+        <div id="input-top" class="row">
+          <div id="input-left" class="input-group col-lg-6 col-xs-12 pull-left">
+            <span class="input-group-addon icon-user"><i class="fa fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
+          <div id="input-right" class="input-group col-lg-6 col-xs-12 pull-right">
+            <span class="input-group-addon icon-phone"><i class="fa fa-mobile"></i></span>
+            <input type="text" class="form-control" placeholder="Username">
+          </div>
+        </div>
+      
+        <div class="input-group">
+          <span class="input-group-addon icon-address"><i class="fa fa-map-marker"></i></span>
+          <input type="text" class="form-control" placeholder="Username">
+        </div>
+
+        <button type="button" id="button-contact" class="btn btn-danger pull-right">Gửi yêu cầu tư vấn <i class="fa fa-comments-o"></i></button>
+      </div>
+      <!-- end con-lg-5 -->
+      <div id="video" class="col-lg-7">
+        <img src="images/video.jpg" alt="video" class="img-responsive">
+      </div>
+    </div>
+    <!-- end input & video -->
+    <!-- start conten -->
+    <div id="content-bell">
+      <!-- phien ban destop-tablet  -->
+      <div class="container visible-lg visible-md">
+        <h2>Tại sao bell manager làm bạn thỏa thích ?</h2>
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-flag"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Duy nhất tại Việt Nam</h4>
+            <p>Giải pháp chuyên nghiệp & tối ưu 
+              hóa hoàn toàn hệ thống nhà hàng,
+              cafe, khách sạn.
+            </p>
+          </div>
+        </div>
+        
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-magic"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Với Bell Manager</h4>
+            <p>Bell Manager sẽ giúp bạn tiết kiệm thời gian, tài chính, con người.</p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-mobile"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Tương thích mọi thiết bị</h4>
+            <p>Tương thích đa nền tảng : </p>
+            <p><i class="fa fa-windows"></i>  <i class="fa fa-apple"></i>  <i class="fa fa-android"></i>  <i class="fa fa-linux"></i>  <i class="fa fa-desktop"></i>  <i class="fa fa-laptop"></i>  <i class="fa fa-mobile"></i></p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-users"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Tối ưu hóa nhân sự</h4>
+              <p>Nhân viên luôn đạt hiệu suất 100% công việc.
+              </p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-refresh"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Thời gian thực</h4>
+              <p>Sử dụng thời gian thực tương tác để giám sát hệ thống, tăng hiệu suất.
+              </p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-globe"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Thương mại điện tử</h4>
+              <p>Đồng bộ hóa lên hệ thống thương mại điện tử của chúng tôi, giúp doanh nghiệp tăng hiệu suất kinh doanh.
+              </p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-cogs"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Chuyên nghiệp hoá</h4>
+              <p>Với thiết bị công nghệ tạo ra ấn tượng với khách hàng trong và ngoài nước.
+              </p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-cloud"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Điện toán đám mây</h4>
+              <p>Đảm bảo hệ thống luôn trong trạng thái ổn định, kể cả khi không có kết nối internet.
+              </p>
+          </div>
+        </div>
+
+        <div class="item-bell col-lg-4 col-md-6 col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-credit-card"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Thanh toán thông minh</h4>
+              <p>Thanh toán trực tiếp trên thiết bị bằng thẻ tín dụng visa, master card (*)
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- end phien ban destop-tablet -->
+      <!-- phien ban mobile -->
+      <div class="container visible-sm visible-xs">
+        <h2>Tại sao bell manager làm bạn thỏa thích ?</h2>
+        <div class="row">
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-flag"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Duy nhất tại Việt Nam</h4>
+              <p>Giải pháp chuyên nghiệp & tối ưu 
+                hóa hoàn toàn hệ thống nhà hàng,
+                cafe, khách sạn.
+              </p>
+            </div>
+          </div>
+          
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-magic"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Với Bell Manager</h4>
+              <p>Bell Manager sẽ giúp bạn tiết kiệm thời gian, tài chính, con người.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-mobile"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Tương thích mọi thiết bị</h4>
+              <p>Tương thích đa nền tảng : </p>
+              <p><i class="fa fa-windows"></i>  <i class="fa fa-apple"></i>  <i class="fa fa-android"></i>  <i class="fa fa-linux"></i>  <i class="fa fa-desktop"></i>  <i class="fa fa-laptop"></i>  <i class="fa fa-mobile"></i></p>
+            </div>
+          </div>
+
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-users"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Tối ưu hóa nhân sự</h4>
+                <p>Nhân viên luôn đạt hiệu suất 100% công việc.
+                </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-refresh"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Thời gian thực</h4>
+                <p>Sử dụng thời gian thực tương tác để giám sát hệ thống, tăng hiệu suất.
+                </p>
+            </div>
+          </div>
+
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-globe"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Thương mại điện tử</h4>
+                <p>Đồng bộ hóa lên hệ thống thương mại điện tử của chúng tôi, giúp doanh nghiệp tăng hiệu suất kinh doanh.
+                </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-cogs"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Chuyên nghiệp hoá</h4>
+                <p>Với thiết bị công nghệ tạo ra ấn tượng với khách hàng trong và ngoài nước.
+                </p>
+            </div>
+          </div>
+
+          <div class="item-bell-mobile col-sm-6 col-xs-12">
+            <i class="round">
+              <span class="fa fa-cloud"></span>
+            </i>
+            <div class="text-item-bell">
+              <h4>Điện toán đám mây</h4>
+                <p>Đảm bảo hệ thống luôn trong trạng thái ổn định, kể cả khi không có kết nối internet.
+                </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="item-bell-mobile col-sm-6 col-xs-12">
+          <i class="round">
+            <span class="fa fa-credit-card"></span>
+          </i>
+          <div class="text-item-bell">
+            <h4>Thanh toán thông minh</h4>
+              <p>Thanh toán trực tiếp trên thiết bị bằng thẻ tín dụng visa, master card (*)
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- end phien ban mobile -->
+    </div>
+    <!-- end content -->
+
+    <!-- start price -->
+    <div id="state-price">
+      <div class="container">
+        <h2>Price state</h2>
+        <div class="col-lg-4 package sliver">
+        <h4>Package Lite</h4>
+        <p>$149</p>
+        <ul class="info-package">
+            <li>Sử dụng giao diện có sẵn</li>
+            <li>Tích hợp moblie , tablet</li>
+            <li>Thân thiện bộ máy tìm kiếm</li>
+            <li>Tính năng đầy đủ</li>
+            <li>Giao diện chuyên nghiệp</li>
+            <li>Hỗ trợ và hậu mãi chu đáo</li>
+            <li>Thời gian hoàn thành : 5 -7 ngày</li>
+            <li>Khuyến mãi : không</li>
+        </ul>
+        <!-- Button trigger modal -->
+        <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+            Đặt mua
+        </button>
+
+        <!-- Modal -->
+            <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">Package Lite</h4>
+                        </div>
+                        <div class="modal-body">
+                            Bạn đồng ý mua Package Lite
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Đồng ý</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div>
+        
+        <div class="col-lg-4 package gold">
+        <h4>Package Hotels</h4>
+        <p style="font-size:30px;padding-bottom:10px"><img src="images/vocung.png" width="60" alt="vo cung"></p>
+        <ul class="info-package">
+            <li>Sử dụng giao diện có sẵn </li>
+            <li>Thêm tính năng theo yêu cầu</li>
+            <li>Tích hợp moblie , tablet</li>
+            <li>Thân thiện bộ máy tìm kiếm</li>
+            <li>Hỗ trợ và hậu mãi chu đáo</li>
+            <li>Tặng kèm 1 Cloud Hosting trị giá 990.000 vnđ</li>
+            <li>Băng thông : Không giới hạn</li>
+            <li>Dung lượng : 1G (SSD)</li>
+        </ul>
+        <!-- Button trigger modal -->
+        <button class="btn btn-danger btn-lg" data-toggle="modal" data-target="#myModal2">
+            Đặt mua
+        </button>
+        
+            
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog"  aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title">Package Hotels</h4>
+                        </div>
+                        <div class="modal-body">
+                            Bạn đồng ý mua Package Hotels !
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Đồng ý</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+            
+        </div>
+  
+        <div class="col-lg-4 package diamond">
+        <h4>Package Restaurant</h4>
+        <p>$359</p>
+        <ul class="info-package">
+            <li>Thiết kế độc quyền - chuyên nghiệp</li>
+            <li>Tính năng theo yêu cầu</li>
+            <li>Tích hợp moblie , tablet</li>
+            <li>Thân thiện bộ máy tìm kiếm</li>
+            <li>Hỗ trợ và hậu mãi chu đáo</li>
+            <li>Tặng Cloud Hosting trị giá 1.299.000 vnđ</li>
+            <li>Băng thông : không giới hạn</li>
+            <li>Dung lượng : 2GB (SSD)</li>
+        </ul>
+          <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+            Đặt mua
+        </button>
+    
+        <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"  aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                            <h4 class="modal-title" >Package Restaurant</h4>
+                        </div>
+                        <div class="modal-body">
+                            Bạn đồng ý mua Package Restaurant !
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary">Đồng ý</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Thoát</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+            
+        </div>
+
+      </div>
+    </div>
+    <!-- end price -->
+
+    <div id="end">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-5 col-md-5">
+                  <h3>GIỚI THIỆU BELL MANAGER</h3>
+                  <p>Công ty TNHH Giải pháp Truyền thông và Công nghệ VSOFT (<i>VSOFT Solution</i>) được thành lập năm 2012.
+                      Với đội ngũ trẻ, năng động, sáng tạo, chuyên nghiệp, VSOFT không ngừng nỗ lực để phát triển những
+                      sản phẩm đi đầu xu thế, đứng đầu thị trường mà còn là tạo ra những sản phẩm thực sự có giá trị
+                      cộng đồng nói riêng và cả xã hội nói chung.
+                  </p>
+              </div>
+              <div class="col-lg-7 col-md-7">
+                  <img class="img-responsive" src="images/img-footer.png" alt="footer">
+              </div>
+          </div>
+          <div class="footer-divider"></div>
+          <div class="row dist_off_foot">
+              <div class="widget col-lg-2 col-md-2 col-sm-4 visible-lg ">
+                  <h5 class="tit_cont_foot">Về chúng tôi</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#"><span class="fa fa-info-circle"></span>Giới thiệu chung</a></li>
+                      <li><a href="#"><span class="fa fa-rocket"></span>Sứ mệnh - Tầm nhìn</a></li>
+                      <li><a href="#"><span class="glyphicon glyphicon-circle-arrow-right"></span>Câu chuyện Logo</a></li>
+                      <li><a href="#"><span class="fa fa-users"></span>Đối tác - Khách hàng</a></li>
+                      <li><a href="#"><span class="fa fa-bullhorn"></span>Tin tức - Báo chí</a></li>
+                  </ul>
+              </div>
+              <div class="widget col-lg-2 col-md-2 col-sm-4 visible-lg ">
+                  <h5 class="tit_cont_foot">Sản phẩm</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#"><span class="fa fa-magic"></span>Chúng tôi khác biệt</a></li>
+                      <li><a href="#"><span class="fa fa-cloud"></span>Doanh nghiệp trực tuyến</a></li>
+                      <li><a href="#"><span class="fa fa-shopping-cart"></span>Thương mại điện tử</a></li>
+                      <li><a href="#"><span class="fa fa-bullseye"></span>Truyền thông số</a></li>
+                      <li><a href="#"><span class="fa fa-toggle-right"></span>Nội dung số</a></li>
+                  </ul>
+              </div>
+              <div class="widget col-lg-2 col-md-2 col-sm-4 visible-lg ">
+                  <h5 class="tit_cont_foot">Liên hệ</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="#"><span class="fa fa-comments-o"></span>Trung tâm hỗ trợ</a></li>
+                      <li><a href="#"><span class="fa fa-envelope-o"></span>Liên hệ đầu tư</a></li>
+                      <li><a href="#"><span class="fa fa-random"></span>Chương trình đối tác</a></li>
+                      <li><a href="#"><span class="fa fa-puzzle-piece"></span>Tuyển dụng</a></li>
+                  </ul>
+              </div>
+
+              <div class="widget col-lg-3 col-md-3 col-sm-6 ">
+                  <h5 class="tit_cont_foot">Hà Nội</h5>
+                  <p><i class="glyphicon glyphicon-map-marker"></i> Toà nhà Trung Yên 1 - Vũ Phạm Hàm - Cầu Giấy- Hà Nội.</p>
+                  <p><i class="glyphicon glyphicon-phone-alt"></i> 04.38.550.999</p>
+                  <p><span class="fa fa-envelope"></span> <a href="mailto:contact@vsoft.vn" class="info_contact">TungNguyen@vsoft.vn</a></p>
+              </div>
+              <div class="widget col-lg-3 col-md-3 col-sm-6 ">
+                  <h5 class="tit_cont_foot">Hồ Chí Minh</h5>
+                  <p><i class="glyphicon glyphicon-map-marker"></i> 266/22 Tô Hiến Thành - Phường 15 <br> - Quận 10 - Hồ Chí Minh.</p>
+                  <p><i class="glyphicon glyphicon-phone-alt"></i> 0866.823.282</p>
+                  <p><span class="fa fa-envelope"></span> <a href="mailto:contact@vsoft.vn" class="info_contact">TungNguyen@vsoft.vn</a></p>
+              </div>
+          </div>
+
+        </div>
+
+        <div class="footer-divider"></div>
+
+        <div class="container">
+            <div class="row">
+                <p class="copy_right text-center">2013 © VSOFT SOLUTION </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="external/application.js"></script>
+    <script src="external/waypoints/waypoints.js"></script>
+    <script src="js/can_i_haz.js"></script>
+    <script src="royalslider/jquery.royalslider.minf76d.js?v=9.3.6"></script>
+    <script type="text/javascript" src="menu-responsive/js/jquery.mmenu.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->    
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
