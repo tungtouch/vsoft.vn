@@ -1,0 +1,202 @@
+<div class="homeSlide">
+    <div class="homeSlide1">
+        <div class="container">
+            <div class="slideEx1 row"
+                    >
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="mocWeb hidden-xs">
+                        <img src="images/moc-web.png" class="img-responsive" alt=""/>
+                        <div class="contentEx">
+                            <form ng-submit="addText()">
+                            <input class="form-control" ng-enter="submitContentEx1()" placeholder="Hãy viết gì đó..." ng-model="itemContent">
+                            </form>
+                            <div class="listShow">
+                                <div class="media" ng-repeat="item in messages | limitTo: 4">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" width="40px" height="40px" src="images/nhoc.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <strong>User</strong>
+                                        <p>{{item.name}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-1">
+
+                </div>
+                <div class="col-md-2 col-xs-12 hidden-sm hidden-xs">
+                    <div class="mocMobile-one">
+                        <img src="images/moc-iphone.png" alt=""/>
+                        <div class="contentExMobile">
+                            <div class="mocweb-head"><strong>LabCoder</strong><span class="pull-right badge badge-danger">{{messages.length}}</span></div>
+                            <form ng-submit="addText()">
+                                <input class="form-control" ng-enter="submitContentEx1()" placeholder="Hãy viết gì đó..." ng-model="itemContent">
+
+                            </form>
+                            <div class="listShow">
+                                <div class="media" ng-repeat="item in messages | limitTo: 4">
+                                    <a class="pull-left" href="#">
+                                        <img class="media-object img-circle" width="40px" height="40px" src="images/nhoc.jpg">
+                                    </a>
+                                    <div class="media-body">
+                                        <strong>User</strong>
+                                        <p>{{item.name}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="container">
+    <!-- Courses -->
+    <div id="courses" class="row">
+        <h3> <i class="fa fa-graduation-cap"></i> KHÓA HỌC</h3>
+        <div class="courses">
+            <div class="col-sm-6 col-md-3">
+                <img src="images/node-courses.png" class="img-responsive" style="width: 100%; display: block; background-size:cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Node.js</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/angular.jpg" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Angular.js</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/js.png" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Javascript</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/phonegap.png" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình PhoneGap</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- News & Jobs-->
+    <div id="newsJobs" class="row">
+        <div class="col-md-8">
+            <h3> <i class="fa fa-newspaper-o"></i> TIN TỨC</h3>
+            <div class="col-md-6">
+                <a href="#courses"><img src="http://demo.betterstudio.com/better-mag/wp-content/uploads/sites/2/2014/08/photodune-4347428-idea-m1-360x200.jpg" class="img-responsive" alt=""/>
+                <h4>Female in Fashionable Coat Posing</h4></a>
+                <p>Lorem ipsum quam a platea interdum justo, nostra ligula pretium ultricies euismod aptent, hendrerit velit curae quis risus sagittis a eros tincidunt…</p>
+            </div>
+            <div class="col-md-6">
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="https://0.s3.envato.com/files/103893119/Thumbnail.png" style="width: 64px; height: 64px;">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla velcibus.
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="https://0.s3.envato.com/files/103881319/80.png" style="width: 64px; height: 64px;">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitud
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="https://0.s3.envato.com/files/103600610/Thumbnail.png" style="width: 64px; height: 64px;">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="https://0.s3.envato.com/files/103503758/thumb.png" style="width: 64px; height: 64px;">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Media heading</h4>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <h3> <i class="fa fa-code"></i> TUYỂN DỤNG</h3>
+            <dl>
+                <dt>Công ty VSOFT Solution <span class="pull-right"> <i class="fa fa-calendar"></i> 16/08/2014</span></dt>
+                <dd>Càn tuyển 3 lập trình viên</dd>
+            </dl>
+            <dl>
+                <dt>Công ty VSOFT Solution <span class="pull-right"> <i class="fa fa-calendar"></i> 08/09/2014</span></dt>
+                <dd>Tuyển 3 lập trình viên Angular.js, 3 thực tập viên Angular. Gửi CV qua email: Tungnguyen@vsoft.vn</dd>
+            </dl>
+            <dl>
+                <dt>Công ty MegaCom <span class="pull-right"> <i class="fa fa-calendar"></i> 08/09/2014</span></dt>
+                <dd>Tuyển 2 lập trình viên Node.js</dd>
+            </dl>
+            <dl>
+                <dt>Team <span class="pull-right"> <i class="fa fa-calendar"></i> 07/08/2014</span></dt>
+                <dd>Càn tuyển 3 lập trình viên</dd>
+            </dl>
+        </div>
+    </div>
+    <!-- Projects -->
+    <div id="projects" class="row">
+        <h3> <i class="fa fa-flask"></i> DỰ ÁN</h3>
+        <div class="projects">
+            <div class="col-sm-6 col-md-3">
+                <img src="images/node-courses.png" class="img-responsive" style="width: 100%; display: block; background-size:cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Node.js</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/angular.jpg" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Angular.js</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/js.png" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình Javascript</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <img src="images/phonegap.png" class="img-responsive" class="img-responsive" style="width: 100%; display: block; background-size: cover">
+                <div class="caption">
+                    <h4><a href="#">Lập trình PhoneGap</a></h4>
+                    <p>Ngày khai giảng (dự kiến): <i>10/9/2014</i></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

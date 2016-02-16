@@ -1,0 +1,232 @@
+<!--<nav class="navbar navbar-top navbar-fixed-top" role="navigation" style="top: 200px !important;">
+    <div class="container">
+
+            <span class="navbar-right btn-navtop">
+                <a target="_blank" href="http://e.nodejs.vn" class="pull-left"><button type="button" class="btn goToClass btn-sm">Vào lớp học</button></a>
+                <a href="#" class="pull-left"><button type="button" class="btn regCourses btn-sm">Đăng ký học</button></a>
+            </span>
+
+        <ul class="nav navbar-nav menu-navtop navbar-right">
+            <li class="active"><a href="#">TRANG CHỦ</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới thiệu <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Thông tin chung</a></li>
+                    <li><a href="#">Đội ngũ Giảng viên</a></li>
+                    <li><a href="#">Quy định chung</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="#">Thư viện Media</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Lập trình Angular.js</a></li>
+                    <li><a href="#">Lập trình Swift - iOS</a></li>
+                    <li><a href="#">Lập trình Node.js</a></li>
+                    <li><a href="#">Khóa học PhoneGap</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Tất cả trong 1 - Node.js</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tuyển sinh <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Lịch khai giảng khóa mới</a></li>
+                    <li><a href="#">Các khóa đang mở</a></li>
+                </ul>
+            </li>
+            <li><a href="#">JOBS</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">H@CK <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">CodeCamp</a></li>
+                    <li><a href="#">Sản phẩm học viên</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+</nav>-->
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav-header">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-target="#bs-example-navbar-collapse-1" ng-click="isCollapsed = !isCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"> <span class="fa fa-flask"></span> <span style="font-size: 18px;text-transform: uppercase; font-weight: 300;">Code Lab</span> </a>
+        </div>
+
+        <!-- Menu Dành Cho Mobile -->
+        <div class="hidden-lg hidden-md hidden-print hidden-sm">
+        <div class="collapse navbar-collapse" id="navbar-mobile" collapse="isCollapsed">
+            <ul class="nav navbar-nav menu-navtop menu-for-mobile">
+                <!--<li class="active"><a href="#">TRANG CHỦ</a></li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới thiệu<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="http://google.com">Thông tin chung</a></li>
+                        <li><a href="#">Đội ngũ Giảng viên</a></li>
+                        <li><a href="#">Quy định chung</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Thư viện Media</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Lập trình Angular.js</a></li>
+                        <li><a href="#">Lập trình Swift - iOS</a></li>
+                        <li><a href="#">Lập trình Node.js</a></li>
+                        <li><a href="#">Khóa học PhoneGap</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Tất cả trong 1 - Node.js</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tuyển sinh <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Lịch khai giảng khóa mới</a></li>
+                        <li><a href="#">Các khóa đang mở</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">JOBS</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">H@CK <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">CodeCamp</a></li>
+                        <li><a href="#">Sản phẩm học viên</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav-right-header">
+                <li><a href=""><button type="button" class="btn regCourses btn-sm">Đăng ký học</button></a></li>
+            </ul>
+        </div>
+    </div>
+        <!-- /Kêt thúc Menu dành cho Mobile -->
+
+        <!-- Menu dành cho Web -->
+        <div class="collapse navbar-collapse navbar-right hidden-xs" id="navbar-collapse-web">
+            <ul class="nav navbar-nav menu-navtop menu-for-web">
+                <!--<li class="active"><a href="#">TRANG CHỦ</a></li>-->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Giới thiệu <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Thông tin chung</a></li>
+                        <li><a href="#">Đội ngũ Giảng viên</a></li>
+                        <li><a href="#">Quy định chung</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Thư viện Media</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Khóa học <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Lập trình Angular.js</a></li>
+                        <li><a href="#">Lập trình Swift - iOS</a></li>
+                        <li><a href="#">Lập trình Node.js</a></li>
+                        <li><a href="#">Khóa học PhoneGap</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Tất cả trong 1 - Node.js</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tuyển sinh <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Lịch khai giảng khóa mới</a></li>
+                        <li><a href="#">Các khóa đang mở</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">JOBS</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">H@CK <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">CodeCamp</a></li>
+                        <li><a href="#">Sản phẩm học viên</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right nav-right-header">
+                <li><a href=""><button type="button" class="btn regCourses btn-sm">Đăng ký học</button></a></li>
+            </ul>
+
+        </div>
+        <!-- / Kết thúc Menu dành cho Web -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div ui-view=""></div>
+
+
+<div class="footer">
+    <div class="container">
+        <!--
+                <div class="clearfix">
+                    <div class="footer-logo"><a href="#"><img src="images/footer-logo.png">XuongLapTrinh</a></div>
+                    <dl class="footer-nav">
+                        <dt class="nav-title">Giới thiệu</dt>
+                        <li class="nav-item"><a href="#">Thông tin chung</a></li>
+                        <li class="nav-item"><a href="#">Đội ngũ giảng viên</a></li>
+                        <li class="nav-item"><a href="#">Quy định chung</a></li>
+                        <li class="nav-item"><a href="#">Tuyển dụng</a></li>
+                        <li class="nav-item"><a href="#">Thư viện Media</a></li>
+                        <li class="nav-item"><a href="#">Liên hệ</a></li>
+                    </dl>
+                    <dl class="footer-nav">
+                        <dt class="nav-title">Khóa học</dt>
+                        <li class="nav-item"><a href="#">Lập trình Node.js</a></li>
+                        <li class="nav-item"><a href="#">Lập trình Angular.js</a></li>
+                        <li class="nav-item"><a href="#">Lập trình Swift iOS</a></li>
+                        <li class="nav-item"><a href="#">Khóa học PhoneGap</a></li>
+                        <li class="nav-item"><a href="#">Tất cả trong 1 - Node.js</a></li>
+                    </dl>
+                    <dl class="footer-nav">
+                        <dt class="nav-title">Tuyển sinh</dt>
+                        <li class="nav-item"><a href="#">Lịch khai giảng</a></li>
+                        <li class="nav-item"><a href="#">Các khóa đang mở</a></li>
+                    </dl>
+                    <dl class="footer-nav">
+                        <dt class="nav-title">Khác</dt>
+                        <li class="nav-item"><a href="#">CodeCamp</a></li>
+                        <li class="nav-item"><a href="#">Công việc</a></li>
+                        <li class="nav-item"><a href="#">Sản phẩm học viên</a></li>
+                    </dl>
+                </div>
+        -->
+        <div class="row">
+            <div class="col-md-4 col-sm-4 footer-item">
+                <div class="logo-footer">
+                    <a style="font-size: 26px;" href="#">{ <span class="fa fa-flask"></span> <span style="text-transform: uppercase; font-weight: 300;">Code Lab</span> }</a>
+                    <p><span style="color: #c0c0c0; margin-left: 10px; font-size: 13px;"> Less Code - More Software</i></span></p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-6 footer-item-1">
+
+            </div>
+
+            <div class="col-md-4 col-sm-4 col-xs-6 footer-item" style="color: #fff;">
+                <h5 style="font-weight: 400">CƠ SỞ HÀ NỘI</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fa fa-map-marker"></i> : 131 Thái Thịnh - quận Đống Đa - Hà Nội</li>
+                    <li><i class="fa fa-mobile"></i> : 0912 64 6666</li>
+                    <li><i class="fa fa-envelope-o"></i> : daotao@xuonglaptrinh.com</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center">Copyright © 2014 <a href="http://xuonglaptrinh.com">XuongLapTrinh.Com</a> - All rights reserved.</div>
+    </div>
+</div>
