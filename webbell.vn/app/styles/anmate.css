@@ -1,0 +1,16 @@
+.animate-show {
+    -webkit-transition: all 500ms cubic-bezier(0.235, 0.240, 0.750, 0.750);
+    -moz-transition: all 500ms cubic-bezier(0.235, 0.240, 0.750, 0.750);
+    -o-transition: all 500ms cubic-bezier(0.235, 0.240, 0.750, 0.750);
+    transition: all 500ms cubic-bezier(0.235, 0.240, 0.750, 0.750); /* custom */
+}
+
+.animate-show.ng-hide-add,
+.animate-show.ng-hide-remove {
+    display:block!important;
+}
+
+.animate-show.ng-hide {
+    line-height:0;
+    opacity:0;
+}
